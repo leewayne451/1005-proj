@@ -1,0 +1,40 @@
+/*Underline <h2>*/
+h2 {
+    text-decoration: underline;
+}
+
+/*Thumbnail image border*/
+img {
+    border: 4px solid #ddd;
+}
+
+/*Captions (hardcoded)*/
+figure {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+    color: gray;
+}
+
+/*Footer*/
+footer {
+    border-top: 1px solid black;
+    text-align: center;
+    font-style: italic;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.img-popup {
+    padding: 5px;
+}
+
+nav a.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
